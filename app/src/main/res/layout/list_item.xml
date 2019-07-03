@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="0dp"
+    android:layout_marginTop="0dp"
+    android:focusable="false"
+    android:descendantFocusability="blocksDescendants"
+    android:clickable="false"
+    android:focusableInTouchMode="true">
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:paddingBottom="5dp"
+        android:textColor="#000000"
+        android:text="Cherry"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/colorRed"
+        android:text="Status"/>
+
+    <TextView
+        android:id="@+id/userEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userName"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000"
+        android:paddingBottom="5dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:text="Email" />
+</RelativeLayout>
